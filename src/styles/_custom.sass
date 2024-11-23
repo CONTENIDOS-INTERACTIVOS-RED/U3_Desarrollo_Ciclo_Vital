@@ -1,0 +1,88 @@
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/componentes/bg-1.svg") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/componentes/bg-2.png") !important
+    background-position: top
+    
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.3rem
+
+.object-fit-none
+  object-fit: none
+
+.rounded-8px
+  border-radius: 8px
+.bg-azul
+  background-color: #DCE8FA
+.bg-azul-1
+  background-color: #EDF3FC
+.bg-azul-claro
+  background-color: #D7F9FE
+
+.bg-morado
+  background-color: #5830E2
+.bg-morado:hover
+  background-color: #5830E2
+
+.bg-amarillo
+  background-color: #FCF9E5
+  
+.bg-gris
+  background-color: #EBE9F0
+
+
+// ACORDEON
+.acordion__header
+  background-color: #EBE9F0 !important
+.acordion__contenido
+  background-color: #EBE9F0 !important  
+.acordion__header--active
+  background-color: #453179 !important
+  h4, i
+    color: $white !important
+
+
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
