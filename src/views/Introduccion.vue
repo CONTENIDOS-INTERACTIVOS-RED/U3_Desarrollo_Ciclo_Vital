@@ -1,23 +1,21 @@
 <template lang="pug">
 .curso-main-container.introduccion
-  BannerInterno(:titulo="'unidad 2: Desarrollo cognitivo y del lenguaje en niños y adolescente'" :subTitulo="'INTRODUCCIÓN'")
+  BannerInterno(:titulo="'Unidad 3. Desarrollo socioemocional y conductual en niños y adolescentes'" :subTitulo="'INTRODUCCIÓN'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    p.mb-4 En esta unidad, se profundizará en la teoría del desarrollo cognitivo de <strong>Jean Piaget</strong>, explorando su propuesta sobre el desarrollo cognitivo y las etapas secuenciales que atraviesan las personas para comprender el mundo.
+    .row.mb-5
+        .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
+          p.mb-4 En esta tercera unidad, se profundizará en la Teoría del Desarrollo Psicosocial de Erikson, que explora las etapas del desarrollo humano a lo largo de la vida. Se pondrá especial énfasis en el desarrollo de la identidad durante la adolescencia, una etapa crucial en la que los jóvenes comienzan a definir quiénes son y cómo se perciben en relación con su entorno. Asimismo, se abordarán los aportes de diversos autores.
+          .d-flex.align-items-start.bg-azul-claro.p-4.mb-4(data-aos="fade-right")
+            p.pe-xl-3.mb-0(data-aos="fade-up") Además, se analizará la influencia del entorno social y familiar en la conducta y las emociones de los adolescentes, reconociendo el papel de estos factores en su desarrollo socioemocional y conductual. Con el apoyo de recursos documentales, portales web y videos, al finalizar el curso, los estudiantes estarán en capacidad de describir y comprender la importancia del entorno familiar y social en la conducta de niños y adolescentes, así como el impacto que este tiene en su identidad y bienestar emocional.
+        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
+          img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')  
 
     .row.mb-5
-      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        div.d-flex.align-items-start.bg-azul-claro.p-4.mb-4(data-aos="fade-left")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-1.svg', alt='Texto que describa la imagen')
-          .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") Luego, se abordará el enfoque sociocultural de Lev Vygotsky y su impacto en el aprendizaje, lo cual permitirá entender cómo, para este autor, el contexto social y cultural desempeña un papel fundamental en la construcción del conocimiento. También se revisarán las biografías de estos autores y la relevancia de sus aportes en la psicología y la educación.
-        p El recorrido culminará con el desarrollo del lenguaje, abordando sus etapas y los factores que influyen en él, destacando las contribuciones de otros autores como Burrhus Frederic Skinner y Noam Chomsky.
-      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')  
-      .col-12.p-4.bg-amarillo
-        p Es fundamental la participación activa en todas las actividades propuestas para esta unidad, manteniendo el excelente ritmo de trabajo demostrado desde el inicio del curso.
-
-
+      .d-flex.align-items-center
+        div.d-flex.align-items-center.bg-amarillo.px-3.py-4
+          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-2.svg', alt='Texto que describa la imagen')
+          p.pe-xl-5.mb-0  Se espera que la motivación que los llevó a iniciar este viaje académico los haya acompañado hasta el final de esta asignatura, acercándolos un paso más a alcanzar su objetivo profesional.
 
 </template>
 

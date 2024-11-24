@@ -1,8 +1,8 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'unidad 2: Desarrollo cognitivo y del lenguaje en niños y adolescente'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'Unidad 3. Desarrollo socioemocional y conductual en niños y adolescentes'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad 2, <strong>Desarrollo cognitivo y del lenguaje en niños y adolescentes</strong>, aborda cómo se forman habilidades cognitivas y lingüísticas. Piaget describe un avance en etapas de complejidad creciente, mientras que Vygotsky destaca la influencia social a través de la "zona de desarrollo próximo", donde el apoyo facilita el aprendizaje. El desarrollo del lenguaje también se analiza desde los primeros sonidos hasta frases complejas, influido por el entorno. Esta comprensión permite crear estrategias pedagógicas que se adapten a cada etapa de desarrollo.
+    p.mb-4.mb-md-5 En esta unidad, se exploró el desarrollo socioemocional y conductual en niños y adolescentes, comenzando con la teoría de Erikson sobre la crisis de identidad en la adolescencia. Se analizaron cómo factores sociales, como la familia, los amigos y la cultura, influyen en la búsqueda de identidad y el bienestar emocional de los jóvenes. Los recursos utilizados permitieron comprender las etapas del desarrollo emocional y los cambios conductuales, destacando el papel positivo del entorno familiar y el impacto de factores sociales, como la presión de grupo y los medios. La unidad concluyó con la comprensión de la complejidad del desarrollo adolescente, influido por diversos factores.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

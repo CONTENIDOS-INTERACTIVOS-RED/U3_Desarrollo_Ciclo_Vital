@@ -29,34 +29,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Desarrollo cognitivo y del lenguaje en niños y adolescentes',
+        titulo: 'Teoría del desarrollo psicosocial de Erikson',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Teoría de Erik Erikson',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Desarrollo del lenguaje: etapas y factores influyentes',
+        titulo: 'Desarrollo de la identidad en la adolescencia',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo:
+          'Influencia del entorno social y familiar en la conducta y emociones de los adolescentes',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Etapas del desarrollo del lenguaje',
-            hash: 't_2_1',
+            numero: '3.1',
+            titulo: 'Papel del entorno familiar',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Factores que influyen en el desarrollo del lenguaje',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo:
-              'Relación entre el desarrollo del lenguaje y el desarrollo cognitivo',
-            hash: 't_2_3',
+            numero: '3.2',
+            titulo: 'Papel del entorno familiar',
+            hash: 't_3_2',
           },
         ],
       },
@@ -86,7 +96,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Pograma_Desarrollo_ciclo vital_Unidad_2.pdf',
+        download: 'downloads/Pograma_Desarrollo_ciclo vital_Unidad_3.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -103,120 +113,82 @@ export default {
   referencias: [
     {
       referencia:
-        'Anaya, N. C. (2004). Diccionario de psicología. Ecoe Ediciones.',
+        'Argumedos De La Ossa, C., & Solórzano Santos, M. D. (2024). Conductas antisociales y delictivas en una muestra de adolescentes colombianos entre 11 y 17 años pertenecientes a una región de la Costa Caribe. Revista Logos, Ciencia & Tecnología, 16(1), 32-51.',
+      link: 'https://www.redalyc.org/journal/5177/517777358003/',
+    },
+    {
+      referencia:
+        'Bolívar-Ramírez, M., Cruz, S. G. R., & Prieto, B. L. A. Regulación emocional en adolescentes: importancia e influencia del contexto.',
       link: '',
     },
     {
       referencia:
-        'Aparicio Aznar, M., & Igualada, A. (2019). El desarrollo del lenguaje y la comunicación en la infancia. Editorial UOC.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/106676?page=7',
-    },
-    {
-      referencia:
-        'Bruner, J. S. (2018). Desarrollo cognitivo y educación. Ediciones Morata.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/119515',
-    },
-    {
-      referencia:
-        'Carmona, V. (2023, mayo 15). Descubre los factores clave que influyen en el lenguaje. Lingüística.',
+        'Cáceres Lembcke, E. B., & Otoya Puccio, K. M. (2021). Construcción de la identidad en la adolescencia a través del uso de redes sociales.',
       link:
-        'https://linguistica.gea.lat/descubre-los-factores-clave-que-influyen-en-el-lenguaje/',
+        'CACERES LEMBCKE, ELENA BEATRIZ Y OTOYA PUCCIO, KARINA_ 2021 (1).pdf',
     },
     {
       referencia:
-        'Feldman, R. (2015). Modelo del desarrollo cognoscitivo de Piaget.',
-      link: '',
+        'González-Grandón, X., Chao Rebolledo, C., & Patiño Domínguez, H. (2021). El juego en la educación: una vía para el desarrollo del bienestar socioemocional en contextos de violencia. Revista Latinoamericana de Estudios Educativos (México), LI(2), 233-270.',
+      link: 'https://www.redalyc.org/journal/270/27065158006/',
     },
     {
       referencia:
-        'García, J. G. (2020). El constructivismo en la educación y el aporte de la teoría sociocultural de Vygotsky para comprender la construcción del conocimiento en el ser humano. Dilemas contemporáneos: Educación, política y valores.',
-      link: '',
-    },
-    {
-      referencia: 'Piaget, J. (1976). Desarrollo cognitivo. Fomtaine.',
-      link: '',
+        'Labastida, S. (2021). George H. Mead. Su resurgimiento y su actualidad. Diferencias, 1(11).',
+      link:
+        'https://www.revista.diferencias.com.ar/index.php/diferencias/article/viewFile/223/144',
     },
     {
       referencia:
-        'Rodríguez, J. J., & Santana, A. M. M. (2010). Adquisición y desarrollo del lenguaje. Psicología del desarrollo en la etapa de educación infantil, 2(5), 105-106.',
-      link: '',
-    },
-    {
-      referencia:
-        'Rodríguez, M. A. M. (1999). El enfoque sociocultural en el estudio del desarrollo y la educación. REDIE. Revista Electrónica de Investigación Educativa, 1(1), 16-37.',
-      link: '',
-    },
-    {
-      referencia:
-        'Tajibo Association. (2023, octubre 24). La teoría de la adquisición del lenguaje de Noam Chomsky: La revolución del innatismo. Asociación Tajibo.',
-      link: 'https://tajibo.org/teoria-adquisicion-lenguaje-noam-chomsky/',
-    },
-    {
-      referencia:
-        'Vygotsky, L. S. (1979). El desarrollo de los procesos psicológicos superiores. Grijalbo.',
-      link: '',
-    },
-    {
-      referencia:
-        'Vygotsky, L. S. (2021). Pensamiento y lenguaje. Editorial Pueblo y Educación.',
-      link: '',
+        'Villagómez, C. A. V, Bonilla, A. C. J, Bonilla, G.G.P, Torres, G.T. D (2023). El aprendizaje social de Albert Bandura como estrategia de enseñanza de educación para la ciudadanía. págs. 1286-1307.',
+      link: 'https://dialnet.unirioja.es',
     },
   ],
   glosario: [
     {
-      termino: 'Acomodación',
+      termino: 'Apego',
       significado:
-        'Proceso opuesto a la asimilación. Implica modificar los esquemas mentales existentes para adaptarse a nueva información o experiencias que no encajan en los esquemas previos',
+        'Es un vínculo emocional profundo y duradero que se establece entre un bebé y su cuidador principal, generalmente la madre. Este vínculo es fundamental para el desarrollo emocional y social del niño, ya que proporciona un sentido de seguridad y confianza en el mundo. El tipo de apego que se desarrolla en la infancia influirá en las relaciones interpersonales del individuo a lo largo de su vida',
     },
     {
-      termino: 'Andamiaje',
+      termino: 'Conducta',
       significado:
-        'Es un proceso de enseñanza en el que el adulto o tutor proporciona apoyo al niño para que pueda realizar tareas que inicialmente están fuera de su alcance. Este apoyo se ajusta gradualmente a medida que el niño va adquiriendo nuevas habilidades',
+        'La expresión observable de los procesos mentales internos de un individuo. Incluye tanto acciones físicas como verbales, y está influenciada por factores biológicos, psicológicos y sociales',
     },
     {
-      termino: 'Asimilación',
+      termino: 'Emociones',
       significado:
-        'Proceso mediante el cual los nuevos conocimientos o experiencias se integran en los esquemas mentales preexistentes del individuo. Es decir, se ajusta la nueva información a lo que ya se conoce',
+        'Son respuestas complejas que involucran componentes fisiológicos, cognitivos y conductuales. Son reacciones subjetivas a eventos o estímulos internos o externos. Las emociones desempeñan un papel crucial en la adaptación del individuo a su entorno y en la regulación de su conducta',
     },
     {
-      termino: 'Equilibrio',
+      termino: 'Entorno',
       significado:
-        'Estado de equilibrio entre la asimilación y la acomodación. El individuo busca constantemente un estado de equilibrio cognitivo, donde los esquemas mentales sean coherentes con la realidad',
+        'Se refiere a todos los factores externos que influyen en el desarrollo de un individuo. Incluye tanto el entorno físico (hogar, escuela, comunidad) como el entorno social (familia, amigos, cultura)',
     },
     {
-      termino: 'Factores',
+      termino: 'Identidad',
       significado:
-        'Son todas las variables que influyen en el desarrollo cognitivo y del lenguaje, como factores biológicos (madurez del cerebro), ambientales (estimulación, interacción social), cognitivos (procesos de atención, memoria) y socioculturales (valores, creencias)',
+        'Es el sentido de uno mismo, que se desarrolla a lo largo de la vida a través de las interacciones con los demás y las experiencias personales. Incluye aspectos como la autoimagen, la autoestima, el sentido de pertenencia y los roles sociales',
     },
     {
-      termino: 'Filogenética',
+      termino: 'Inteligencia',
       significado:
-        'Hace referencia a los procesos evolutivos de una especie a lo largo del tiempo. En el contexto del desarrollo cognitivo, se refiere a los cambios evolutivos que han dado lugar a las capacidades cognitivas humanas',
+        'Capacidad de adquirir y aplicar conocimientos, de resolver problemas y de adaptarse a nuevas situaciones. Existen diferentes teorías sobre la inteligencia, pero en general se considera una capacidad multifacética que incluye habilidades como la lógica, la creatividad, la memoria y la inteligencia emocional',
     },
     {
-      termino: 'Internalización',
+      termino: 'Psicoanálisis',
       significado:
-        'Proceso mediante el cual las funciones mentales externas (como el lenguaje) se convierten en funciones internas del individuo. Por ejemplo, cuando un niño interioriza las reglas del lenguaje, las utiliza de forma espontánea',
+        'Es una teoría y una terapia psicológica desarrollada por Sigmund Freud. Se centra en el estudio de la mente inconsciente y en cómo los conflictos inconscientes influyen en la conducta y las emociones. El psicoanálisis utiliza técnicas como la asociación libre y la interpretación de los sueños para explorar el inconsciente y promover el cambio terapéutico',
     },
     {
-      termino: 'Microgenética',
+      termino: 'Psicosexual',
       significado:
-        'Estudia los cambios cognitivos que se producen en períodos cortos de tiempo, como minutos u horas. Permite observar de manera detallada los procesos de aprendizaje y resolución de problemas',
+        'El término psicosexual se refiere a la teoría freudiana del desarrollo de la personalidad, que enfatiza la importancia de la sexualidad en las primeras etapas de la vida',
     },
     {
-      termino: 'Ontogenética',
+      termino: 'Psicosocial',
       significado:
-        'Se refiere al desarrollo de un individuo a lo largo de su vida. En el contexto del desarrollo cognitivo, se centra en los cambios que se producen desde la infancia hasta la edad adulta',
-    },
-    {
-      termino: 'Organización',
-      significado:
-        'Proceso mediante el cual los esquemas mentales se relacionan y se estructuran de manera jerárquica, formando sistemas más complejos de conocimiento',
-    },
-    {
-      termino: 'Zona de Desarrollo Próximo (ZDP)',
-      significado:
-        'Concepto desarrollado por Vygotsky que se refiere a la distancia entre lo que un niño puede hacer por sí mismo y lo que puede hacer con la ayuda de un adulto o compañero más competente. Es la zona en la que se produce el aprendizaje más efectivo',
+        'Se refiere a la interacción entre los factores psicológicos y sociales que influyen en el desarrollo humano. Erik Erikson, uno de los principales teóricos del desarrollo psicosocial, propuso una teoría que describe ocho etapas del desarrollo a lo largo de la vida, cada una de las cuales se caracteriza por una crisis psicosocial específica',
     },
   ],
   complementario: [

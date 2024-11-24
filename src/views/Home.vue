@@ -21,10 +21,10 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title.text-uppercase Desarrollo y Ciclo Vital: Niños y Adolescentes
-              h1.home-title.mb-4.text-uppercase Desarrollo cognitivo y del lenguaje en niños y adolescentes
-              p.descripcion.mb-4 El desarrollo cognitivo y del lenguaje en niños y adolescentes es fundamental, influido por teorías como las de Piaget y Vygotsky, quienes exploran cómo la maduración biológica y la interacción social enriquecen este proceso. El lenguaje y la cognición están interrelacionados, facilitando la capacidad para aprender, pensar y comunicarse. Las  etapas de desarrollo descritas por Piaget incluyen la sensoriomotora, preoperacional, operaciones concretas y formales, cada una con características específicas. Comprender estos conceptos es clave para fomentar un ambiente de aprendizaje que apoye el crecimiento integral.
+              h1.home-title.mb-4.text-uppercase Desarrollo socioemocional y conductual en niños y adolescentes
+              p.descripcion.mb-4 La unidad aborda el desarrollo socioemocional en niños y adolescentes, centrada en la teoría psicosocial de Erikson, explorando cómo identidad, conducta y emociones evolucionan influenciadas por el entorno familiar y social. Destaca la importancia de figuras como Piaget, Vygotsky y Bowlby, cuyas teorías aportan al entendimiento del apego, la autonomía y el proceso de formación de la identidad. El rol de padres y educadores es crucial en el apoyo y guía emocional.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Acompañar es ayudar a construir adultos seguros y emocionalmente fuertes.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
