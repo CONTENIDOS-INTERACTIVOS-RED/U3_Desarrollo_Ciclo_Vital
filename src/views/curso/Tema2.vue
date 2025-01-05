@@ -20,9 +20,9 @@
             p.mb-4 Los invitamos a escuchar el podcast sobre el desarrollo de la identidad en la adolescencia, donde exploraremos cómo los jóvenes construyen su sentido de identidad en medio de cambios físicos, emocionales y sociales: 
 
             TarjetaAudio.color-primario.bg-white.mb-3(
-                  texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+                  texto="Desarrollo de la identidad en la adolescencia."
                   tiempo
-                  :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('../../assets/componentes/audios/podcast - construcción de identidadd.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
 
@@ -95,7 +95,7 @@
             h4 Era digital y redes sociales
             p(data-aos="fade-up") Los medios y redes sociales exponen a los adolescentes a múltiples imágenes y narrativas, afectando su autopercepción y cómo desean proyectarse ante los demás.
 
-    .row.bg-azul-1.bg-full-width.py-4
+    .row.bg-azul-1.bg-full-width.py-4.mb-4
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Construcción de la identidad en la adolescencia 
@@ -108,7 +108,7 @@
     
     p.mb-4 El desarrollo de la identidad en la adolescencia es un proceso complejo que integra factores biológicos, psicológicos, sociales y culturales. Los marcos teóricos de los autores estudiados permiten comprender este proceso y su relevancia. Es fundamental que educadores, padres y la sociedad en general apoyen a los adolescentes en esta búsqueda, brindando un entorno que facilite la exploración y el compromiso en su desarrollo de identidad.
 
-    .row.bg-azul-1.bg-full-width.py-4
+    .row.bg-azul-1.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .d-none.d-xl-block.col-xl-5.col-xxl-4.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
           img.h-100(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
@@ -119,6 +119,23 @@
             img.h-100(style="width: 48px" src='@/assets/componentes/video-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Video.</strong> Claudette Donayre
 
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://dialnet.unirioja.es/servlet/articulo?codigo=65158006") Bolívar-Ramírez, M., Cruz, S. G. R., & Prieto, B. L. A. Regulación emocional en adolescentes: importancia e influencia del contexto.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/IViLGcgxlGc") Donayre, A. C. M. (2021). La adquisición de la identidad y conciencia personal [Vídeo]
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/eAITJNEQWzI") Nouel, G. (2021). Estilos de crianza - Diana Baumrind - Autoridad y Cariño [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>

@@ -70,6 +70,11 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -94,101 +99,156 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Pograma_Desarrollo_ciclo vital_Unidad_3.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
   referencias: [
     {
       referencia:
-        'Argumedos De La Ossa, C., & Solórzano Santos, M. D. (2024). Conductas antisociales y delictivas en una muestra de adolescentes colombianos entre 11 y 17 años pertenecientes a una región de la Costa Caribe. Revista Logos, Ciencia & Tecnología, 16(1), 32-51.',
-      link: 'https://www.redalyc.org/journal/5177/517777358003/',
-    },
-    {
-      referencia:
-        'Bolívar-Ramírez, M., Cruz, S. G. R., & Prieto, B. L. A. Regulación emocional en adolescentes: importancia e influencia del contexto.',
+        'Bordignon, N. A. (2005). El desarrollo psicosocial de Eric Erikson. El diagrama epigenético del adulto.',
       link: '',
     },
     {
       referencia:
-        'Cáceres Lembcke, E. B., & Otoya Puccio, K. M. (2021). Construcción de la identidad en la adolescencia a través del uso de redes sociales.',
+        'Fernández, L. (2018). Sigmund Freud. Praxis filosófica, (46), 11-41.',
+      link: '',
+    },
+    {
+      referencia: 'Font, P. (1990). Desarrollo psicosexual.',
+      link: '',
+    },
+    {
+      referencia:
+        'Freijo, E.A (2004). Familia y desarrollo. Editorial Person. (pp. 97-123)',
+      link: '',
+    },
+    {
+      referencia:
+        'Galimberti. U (2002). Diccionario de Psicología. Editorial siglo veintiuno editores S.A de C.V.',
+      link: '',
+    },
+    {
+      referencia:
+        'Glover, M. (2024, noviembre 8). Complejo de Edipo en adultos: síntomas, solución y consecuencias. Psicología-online.',
       link:
-        'CACERES LEMBCKE, ELENA BEATRIZ Y OTOYA PUCCIO, KARINA_ 2021 (1).pdf',
+        'https://www.psicologia-online.com/complejo-de-edipo-en-adultos-sintomas-solucion-y-consecuencias-512.html',
     },
     {
       referencia:
-        'González-Grandón, X., Chao Rebolledo, C., & Patiño Domínguez, H. (2021). El juego en la educación: una vía para el desarrollo del bienestar socioemocional en contextos de violencia. Revista Latinoamericana de Estudios Educativos (México), LI(2), 233-270.',
-      link: 'https://www.redalyc.org/journal/270/27065158006/',
-    },
-    {
-      referencia:
-        'Labastida, S. (2021). George H. Mead. Su resurgimiento y su actualidad. Diferencias, 1(11).',
+        'Gonzalez, S. J. (2023, julio 28). ¿Cómo influye el entorno en el comportamiento? La mente es maravillosa.',
       link:
-        'https://www.revista.diferencias.com.ar/index.php/diferencias/article/viewFile/223/144',
+        'https://lamenteesmaravillosa.com/como-influye-el-entorno-en-el-comportamiento/#google_vignette',
     },
     {
       referencia:
-        'Villagómez, C. A. V, Bonilla, A. C. J, Bonilla, G.G.P, Torres, G.T. D (2023). El aprendizaje social de Albert Bandura como estrategia de enseñanza de educación para la ciudadanía. págs. 1286-1307.',
-      link: 'https://dialnet.unirioja.es',
+        'Gudiño Negrete, X. A. (2021). Guía psicoeducativa para facilitar el logro de identidad, basada en la teoría de los estados del desarrollo del Yo de James Marcia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Harris, J. R. (2000). El mito de la educación: por qué los padres pueden influir muy poco en los hijos. Grijalbo Mondadori.',
+      link: '',
+    },
+    {
+      referencia:
+        'Locke, J. (2020). Ensayo sobre el entendimiento humano. Editorial Verbum.',
+      link: '',
+    },
+    {
+      referencia:
+        'Moneta, M. (2014). Apego y pérdida: redescubriendo a John Bowlby. Revista chilena de pediatría, 85(3), 265-268.',
+      link: 'https://dx.doi.org/10.4067/S0370-41062014000300001',
+    },
+    {
+      referencia:
+        'Murillo-Casas, Á., Priegue-Caamaño, D., & do Carmen Cambeiro-Lourido, M. (2015). Una aproximación a los estilos educativos parentales como prácticas socializadoras. Revista de estudios e investigación en psicología y educación, 083-087.',
+      link: '',
+    },
+    {
+      referencia:
+        'Nicuesa, M. (2017, noviembre 7). En qué consiste el complejo de Electra y sus síntomas. Psicología-online.',
+      link:
+        'https://www.psicologia-online.com/en-que-consiste-el-complejo-de-electra-y-sus-sintomas-436.html',
+    },
+    {
+      referencia:
+        'Orengo, J. (2016). Albert Bandura teoría de aprendizaje social.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pérez, F. J. M. (2022). La identidad del yo y la idea del bien moral según Charles Taylor. Estudios Filosóficos, 71(207).',
+      link: '',
+    },
+    {
+      referencia:
+        'Real Academia Española. (s.f.). Identidad. En Diccionario de la lengua española.',
+      link: 'https://dle.rae.es/cultura?m=form',
+    },
+    {
+      referencia:
+        'Seidmann, S. (2015). Identidad personal y subjetividad social: educación y constitución subjetiva. Cadernos de pesquisa, 45, 344-357.',
+      link: '',
+    },
+    {
+      referencia:
+        'Syed, M. y McLean, K. C. (2017). Teoría del desarrollo psicosocial de Erikson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Tió, J. (2020). La formación del sentimiento de identidad en la adolescencia. Temas de psicoanálisis, 20, 1-29.',
+      link: '',
     },
   ],
   glosario: [
     {
       termino: 'Apego',
       significado:
-        'Es un vínculo emocional profundo y duradero que se establece entre un bebé y su cuidador principal, generalmente la madre. Este vínculo es fundamental para el desarrollo emocional y social del niño, ya que proporciona un sentido de seguridad y confianza en el mundo. El tipo de apego que se desarrolla en la infancia influirá en las relaciones interpersonales del individuo a lo largo de su vida',
+        'Es un vínculo emocional profundo y duradero que se establece entre un bebé y su cuidador principal, generalmente la madre. Este vínculo es fundamental para el desarrollo emocional y social del niño, ya que proporciona un sentido de seguridad y confianza en el mundo. El tipo de apego que se desarrolla en la infancia influirá en las relaciones interpersonales del individuo a lo largo de su vida.',
     },
     {
       termino: 'Conducta',
       significado:
-        'La expresión observable de los procesos mentales internos de un individuo. Incluye tanto acciones físicas como verbales, y está influenciada por factores biológicos, psicológicos y sociales',
+        'La expresión observable de los procesos mentales internos de un individuo. Incluye tanto acciones físicas como verbales, y está influenciada por factores biológicos, psicológicos y sociales.',
     },
     {
       termino: 'Emociones',
       significado:
-        'Son respuestas complejas que involucran componentes fisiológicos, cognitivos y conductuales. Son reacciones subjetivas a eventos o estímulos internos o externos. Las emociones desempeñan un papel crucial en la adaptación del individuo a su entorno y en la regulación de su conducta',
+        'Son respuestas complejas que involucran componentes fisiológicos, cognitivos y conductuales. Son reacciones subjetivas a eventos o estímulos internos o externos. Las emociones desempeñan un papel crucial en la adaptación del individuo a su entorno y en la regulación de su conducta.',
     },
     {
       termino: 'Entorno',
       significado:
-        'Se refiere a todos los factores externos que influyen en el desarrollo de un individuo. Incluye tanto el entorno físico (hogar, escuela, comunidad) como el entorno social (familia, amigos, cultura)',
+        'Se refiere a todos los factores externos que influyen en el desarrollo de un individuo. Incluye tanto el entorno físico (hogar, escuela, comunidad) como el entorno social (familia, amigos, cultura).',
     },
     {
       termino: 'Identidad',
       significado:
-        'Es el sentido de uno mismo, que se desarrolla a lo largo de la vida a través de las interacciones con los demás y las experiencias personales. Incluye aspectos como la autoimagen, la autoestima, el sentido de pertenencia y los roles sociales',
+        'Es el sentido de uno mismo, que se desarrolla a lo largo de la vida a través de las interacciones con los demás y las experiencias personales. Incluye aspectos como la autoimagen, la autoestima, el sentido de pertenencia y los roles sociales.',
     },
     {
       termino: 'Inteligencia',
       significado:
-        'Capacidad de adquirir y aplicar conocimientos, de resolver problemas y de adaptarse a nuevas situaciones. Existen diferentes teorías sobre la inteligencia, pero en general se considera una capacidad multifacética que incluye habilidades como la lógica, la creatividad, la memoria y la inteligencia emocional',
+        'Capacidad de adquirir y aplicar conocimientos, de resolver problemas y de adaptarse a nuevas situaciones. Existen diferentes teorías sobre la inteligencia, pero en general se considera una capacidad multifacética que incluye habilidades como la lógica, la creatividad, la memoria y la inteligencia emocional.',
     },
     {
       termino: 'Psicoanálisis',
       significado:
-        'Es una teoría y una terapia psicológica desarrollada por Sigmund Freud. Se centra en el estudio de la mente inconsciente y en cómo los conflictos inconscientes influyen en la conducta y las emociones. El psicoanálisis utiliza técnicas como la asociación libre y la interpretación de los sueños para explorar el inconsciente y promover el cambio terapéutico',
+        'Es una teoría y una terapia psicológica desarrollada por Sigmund Freud. Se centra en el estudio de la mente inconsciente y en cómo los conflictos inconscientes influyen en la conducta y las emociones. El psicoanálisis utiliza técnicas como la asociación libre y la interpretación de los sueños para explorar el inconsciente y promover el cambio terapéutico.',
     },
     {
       termino: 'Psicosexual',
       significado:
-        'El término psicosexual se refiere a la teoría freudiana del desarrollo de la personalidad, que enfatiza la importancia de la sexualidad en las primeras etapas de la vida',
+        'El término psicosexual se refiere a la teoría freudiana del desarrollo de la personalidad, que enfatiza la importancia de la sexualidad en las primeras etapas de la vida.',
     },
     {
       termino: 'Psicosocial',
       significado:
-        'Se refiere a la interacción entre los factores psicológicos y sociales que influyen en el desarrollo humano. Erik Erikson, uno de los principales teóricos del desarrollo psicosocial, propuso una teoría que describe ocho etapas del desarrollo a lo largo de la vida, cada una de las cuales se caracteriza por una crisis psicosocial específica',
+        'Se refiere a la interacción entre los factores psicológicos y sociales que influyen en el desarrollo humano. Erik Erikson, uno de los principales teóricos del desarrollo psicosocial, propuso una teoría que describe ocho etapas del desarrollo a lo largo de la vida, cada una de las cuales se caracteriza por una crisis psicosocial específica.',
     },
   ],
   complementario: [

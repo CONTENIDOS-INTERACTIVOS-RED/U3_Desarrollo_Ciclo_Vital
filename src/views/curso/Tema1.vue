@@ -69,6 +69,14 @@
             h4 Howard Gardner
             p(data-aos="fade-up") Inteligencias múltiples <br>Gardner introduce la inteligencia emocional como una de las múltiples inteligencias, destacando la autoconciencia y la empatía como habilidades esenciales en el desarrollo socioemocional, lo cual permite a los individuos comprender y gestionar sus propias emociones, así como conectarse emocionalmente con los demás.
 
+    p.text-bold.mb-4 La teoría del apego: cómo la infancia afecta la vida
+    p.mb-4 En el siguiente video podrás ampliar más este tema del apego y reconocer la influencia de esta perspectiva desde la niñez en el desarrollo socioemocional y conductual del ser humano.
+
+    figure.mb-5
+      .video
+        <iframe width="1903" height="748" src="https://www.youtube.com/embed/olnzuMtZdA8" title="La Teoría del Apego: Cómo la Infancia Afecta la Vida" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+
     #t_1_1.titulo-segundo
       div.d-flex
         span.me-3 1.1  
@@ -121,9 +129,9 @@
         p.mb-4 Además de los aportes de Erikson y Freud, otros teóricos han ampliado la comprensión del desarrollo socioemocional, abordando aspectos clave como los vínculos afectivos y la inteligencia emocional. John Bowlby destaca la importancia del apego seguro con los cuidadores primarios como base del bienestar emocional, mientras que Howard Gardner, con su teoría de las inteligencias múltiples, subraya la relevancia de la autoconciencia y la empatía para un desarrollo socioemocional equilibrado.
         .bg-azul-1.p-4
           p.mb-3 Para conocer estas etapas lo invitamos a consultar el PDF Etapas del desarrollo socioemocional
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.pe-lg-4.w-fit(data-aos="zoom-in" href="https://www.youtube.com/watch?v=C8TBqpu4T2I " target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/video-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Video.</strong> Etapas del desarrollo socioemocional
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Etapas del desarrollo socioemocional
       .col-12.col-lg-4.col-xl-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
 
@@ -157,7 +165,7 @@
 
     p.mb-4 En conclusión, el desarrollo socioemocional durante estas etapas es fundamental, ya que establece las bases para el bienestar emocional y social en la vida adulta. Padres, educadores y cuidadores desempeñan un papel crucial al brindar un entorno de apoyo y comprensión, que permita a los jóvenes convertirse en adultos resilientes y seguros de sí mismos.
 
-    .row.mb-0
+    .row.mb-5
       .col-12.col-lg-6.pe-lg-2.mb-3.mb-lg-0.d-flex(data-aos="fade-right")
         .bg-azul-1.p-4.d-flex.flex-column.justify-content-between
           p.text-bold.mb-3 Biografía de Erik Erikson
@@ -172,6 +180,23 @@
           a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.pe-lg-4.w-fit(data-aos="zoom-in" href="https://www.redalyc.org/journal/5177/517777358003/" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/link-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Sitio web.</strong> Conductas de los adolescentes 
+
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://dialnet.unirioja.es/servlet/articulo?codigo=8761934") Villagómez, C. A. V., Bonilla, A. C. J., Bonilla, G. G. P., Torres, G. T. D. (2023). El aprendizaje social de Albert Bandura como estrategia de enseñanza de educación para la ciudadanía. Págs. 1286-1307.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/C8TBqpu4T2I") Borja C. (2021). 8 etapas del desarrollo de Erik Erikson [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
 
 
 </template>
