@@ -31,7 +31,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto ¿Sabía que la identidad ha sido estudiada desde múltiples perspectivas?
           p.mb-5 Este documento Teorías filosóficas y psicoanalíticas sobre la construcción de la identidad, le invita a conocer teorías clave de autores como Locke, Freud, Mead y Taylor, quienes aportan enfoques únicos sobre cómo se construye la identidad a través de la conciencia, el desarrollo, la interacción social y el reconocimiento. Estas ideas han transformado la pedagogía y la psicología, ampliando nuestra comprensión de los factores que moldean quiénes somos.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Teorías filosóficas y psicoanalíticas sobre la construcción de la identidad.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Teorías filosóficas y psicoanalíticas sobre la construcción de la identidad
              

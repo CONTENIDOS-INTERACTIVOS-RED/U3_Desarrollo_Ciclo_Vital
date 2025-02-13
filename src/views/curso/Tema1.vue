@@ -129,7 +129,7 @@
         p.mb-4 Además de los aportes de Erikson y Freud, otros teóricos han ampliado la comprensión del desarrollo socioemocional, abordando aspectos clave como los vínculos afectivos y la inteligencia emocional. John Bowlby destaca la importancia del apego seguro con los cuidadores primarios como base del bienestar emocional, mientras que Howard Gardner, con su teoría de las inteligencias múltiples, subraya la relevancia de la autoconciencia y la empatía para un desarrollo socioemocional equilibrado.
         .bg-azul-1.p-4
           p.mb-3 Para conocer estas etapas lo invitamos a consultar el PDF Etapas del desarrollo socioemocional
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Etapas del desarrollo socioemocional.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Etapas del desarrollo socioemocional
       .col-12.col-lg-4.col-xl-5.d-none.d-lg-block(data-aos="fade-left")
