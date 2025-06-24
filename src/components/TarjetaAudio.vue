@@ -11,7 +11,7 @@
         button.audio__btn(v-else @click="pause")
           img(src="@/assets/template/audio-new.svg")
     .col
-      .d-flex
+      .d-flex.justify-content-between
         .tarjeta-audio__texto.text-small.mb-2(v-html="texto")
         .audio.position-relative(style="width: 40px" @mouseover.once="$emit('audio-hover')")
           .spinner-border.spinner-border-sm(v-if="!audioCanPlay" role="status")
